@@ -9,3 +9,48 @@ body {
   padding: 0;
   text-align: center;
 }
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.card-1 {
+  border-top: 5px solid var(--color-cyan);
+}
+
+.card-2 {
+  border-top: 5px solid var(--color-orange);
+}
+
+.card-3 {
+  border-top: 5px solid var(--color-blue);
+}
+
+.card-4 {
+  border-top: 5px solid var(--color-red);
+}
+
+footer {
+  margin: auto;
+}
