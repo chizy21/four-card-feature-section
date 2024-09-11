@@ -16,8 +16,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://github.com/chizy21/four-card-feature-section)
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Chizy's Github](https://github.com/chizy21/four-card-feature-section)
+- Live Site URL: [Netlify site](https://quiet-florentine-b9ab88.netlify.app/)
 
 ## My process
 
