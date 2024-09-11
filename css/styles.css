@@ -16,6 +16,12 @@ h1 {
   margin: 0;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -37,18 +43,30 @@ h1 {
 
 .card-1 {
   border-top: 5px solid var(--color-cyan);
+  grid-column: 2/3;
+  grid-row: 1 / span 2;
 }
 
 .card-2 {
   border-top: 5px solid var(--color-orange);
+  grid-column: 1;
+  grid-row: 2 / span 2;
 }
 
 .card-3 {
   border-top: 5px solid var(--color-blue);
+  grid-column: 3;
+  grid-row: 2 / span 2;
 }
 
 .card-4 {
   border-top: 5px solid var(--color-red);
+  grid-column: 2 / 3;
+  grid-row: 3 / span 2;
+}
+
+.card img {
+  float: right;
 }
 
 footer {
